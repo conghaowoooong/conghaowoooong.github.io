@@ -9,16 +9,18 @@ categories: publications
  * @Author: Conghao Wong
  * @Date: 2020-12-04 19:03:16
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2020-12-04 19:54:03
+ * @LastEditTime: 2020-12-04 20:07:07
  * @Description: Usage of already trained models
 -->
 
-# Usage of Already Trained ETH-UCY Weights
 This note is about how to use our already trained BGM models.
 For more BGM's details, please see our [🔗homepage]({% post_url 2020-12-03-bgm %}).
 
 ## Download Model Weights
-Please download the zip file [🔗HERE](https://baidu.com).
+You can download the zipped weights file from:
+- [🔗 Google Drive](https://drive.google.com/file/d/12COEahIeXbF6DGlU2siXD-UaAR3G_43d/view?usp=sharing);
+- [🔗 Baidu Yun](https://pan.baidu.com/s/1IUaSk5Zuqn3n9vMbDJVb0A) (提取码: anrg).
+  
 It contains 5 folders, including:
 
 ```bash
@@ -63,6 +65,61 @@ do
     python main.py --load ./logs/$set_dir
 done
 ```
+
+The evaluation results should be as follows if there are no mistakes of configuration.
+
+<div align='center'>
+<table>
+    <thead>
+        <tr>
+            <th>index</th>
+            <th>dataset</th>
+            <th>models</th>
+            <th>BGM</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>0</th>
+            <th>eth</th>
+            <th>20200905-202720NEW_500MRR3SSLSTMmap0</th>
+            <th>0.52/1.00</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>hotel</th>
+            <th>20200905-202722NEW_500MRR3SSLSTMmap1</th>
+            <th>0.25/0.48</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>zara1</th>
+            <th>20200905-202724NEW_500MRR3SSLSTMmap2</th>
+            <th>0.43/0.93</th>
+        </tr>
+        <tr>
+            <th>3</th>
+            <th>zara2</th>
+            <th>20200905-202726NEW_500MRR3SSLSTMmap3</th>
+            <th>0.34/0.73</th>
+        </tr>
+        <tr>
+            <th>4</th>
+            <th>univ</th>
+            <th>20200905-202727NEW_500MRR3SSLSTMmap4</th>
+            <th>0.48/1.03</th>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th> - </th>
+            <th> avg </th>
+            <th> - </th>
+            <th>0.40/0.83</th>
+        </tr>
+    </tfoot>
+</table>
+</div>
 
 ---
 
