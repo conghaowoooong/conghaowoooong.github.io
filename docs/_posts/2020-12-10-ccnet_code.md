@@ -9,7 +9,7 @@ categories: publications
  * @Author: Conghao Wong
  * @Date: 2020-11-09 20:13:21
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2021-01-13 20:33:03
+ * @LastEditTime: 2021-01-13 20:35:53
  * @Description: file content
 -->
 
@@ -89,13 +89,16 @@ Test results should be the same as follows if there are not any errors:
             <td>0.800</td>
         </tr>
         <tr>
-            <td colspan=2>SDD</td>
+            <td colspan=2>SDD*</td>
             <td>CCNet_sdd</td>
             <td>14.63</td>
             <td>29.91</td>
         </tr>
     </tbody>
 </table>
+
+\*: Split of training, val and test set of SDD are the same as SimAug (ECCV2020).
+See details in *Training* section.
 
 
 ## Train New Models on ETH-UCY or SDD Datasets
