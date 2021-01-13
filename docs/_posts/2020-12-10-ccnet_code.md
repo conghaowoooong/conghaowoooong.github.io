@@ -9,7 +9,7 @@ categories: publications
  * @Author: Conghao Wong
  * @Date: 2020-11-09 20:13:21
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2021-01-13 20:25:13
+ * @LastEditTime: 2021-01-13 20:28:22
  * @Description: file content
 -->
 
@@ -297,8 +297,8 @@ Local map's size.
 Default is `50`.
 
 - `--model`:
-Model used to train. Canbe `l` or `bgm`.
-Default is `gan`.
+Model used to train. Canbe `l` (linear prediction) or `ccnet` (CCNet).
+Default is `ccnet`.
 
 - `--model_name`:
 Model's name when saving.
