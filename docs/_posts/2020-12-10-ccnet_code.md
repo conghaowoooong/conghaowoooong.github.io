@@ -9,7 +9,7 @@ categories: publications
  * @Author: Conghao Wong
  * @Date: 2020-11-09 20:13:21
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2021-01-13 20:28:22
+ * @LastEditTime: 2021-01-13 20:33:03
  * @Description: file content
 -->
 
@@ -52,7 +52,7 @@ Test results should be the same as follows if there are not any errors:
     </thead>
     <tbody>
         <tr>
-            <td rowspan=5>ETH-UCY</td>
+            <td rowspan=6>ETH-UCY</td>
             <td>eth</td>
             <td>CCNet_eth</td>
             <td>0.517</td>
@@ -61,8 +61,8 @@ Test results should be the same as follows if there are not any errors:
         <tr>
             <td>hotel</td>
             <td>CCNet_hotel</td>
-            <td>0.517</td>
-            <td>1.052</td>
+            <td>0.222</td>
+            <td>0.427</td>
         </tr>
         <tr>
             <td>zara1</td>
@@ -81,6 +81,12 @@ Test results should be the same as follows if there are not any errors:
             <td>CCNet_univ</td>
             <td>0.470</td>
             <td>1.021</td>
+        </tr>
+        <tr>
+            <td>AVERAGE</td>
+            <td>-</td>
+            <td>0.381</td>
+            <td>0.800</td>
         </tr>
         <tr>
             <td colspan=2>SDD</td>
@@ -317,7 +323,7 @@ Prepare argument. Do Not Change it.
 Default is `test`.
 
 - `--rotate`:
-Rotate dataset to obtain more available training data.This arg is the time of rotation, for example set to 1 will rotatetraining data 180 degree once; set to 2 will rotate them 120 degreeand 240 degree.
+Rotate dataset to obtain more available training data.This arg is the time of rotation, for example set to `1` will rotatetraining data 180 degree once; set to `2` will rotate them 120 degreeand 240 degree.
 Default is `0`.
 
 - `--save_base_dir`:
