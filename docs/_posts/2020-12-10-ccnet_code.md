@@ -9,7 +9,7 @@ categories: publications
  * @Author: Conghao Wong
  * @Date: 2020-11-09 20:13:21
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2021-01-13 20:22:20
+ * @LastEditTime: 2021-01-13 20:25:13
  * @Description: file content
 -->
 
@@ -232,14 +232,6 @@ python main.py -h
 
 Detailed description of all available arguments are list below:
 
-- `--K`:
-Number of multiple generation when test.
-Default is `20`.
-
-- `--K_train`:
-Number of multiple generation when training.
-Default is `10`.
-
 - `--add_noise`:
 Controls if add noise to training data
 Default is `0`.
@@ -260,10 +252,6 @@ Default is `ethucy`.
 Parameter of linera prediction.
 Default is `0.95`.
 
-- `--draw_distribution`:
-Conrtols if draw distributions ofpredictions instead of points.
-Default is `0`.
-
 - `--draw_results`:
 Controls if draw visualized results on videoframes. Make sure that you have put video files.
 Default is `0`.
@@ -276,17 +264,9 @@ Default is `0.5`.
 Training epochs.
 Default is `500`.
 
-- `--focus_mode`:
-Experimental.
-Default is `0`.
-
 - `--force_set` *or* `-fs`:
 Force test dataset. Only works on ETH-UCY dataset when arg `load` is not `null`.
 Default is `null`.
-
-- `--gcn_layers`:
-Number of GCN layers used in GAN model.
-Default is `3`.
 
 - `--gpu` *or* `-g`:
 Speed up training or test if you have at least one nvidia GPU. Use `_` to separate if you want to use more than one gpus. If you have no GPUs or want to run the code on your CPU, please set it to `-1`.
@@ -355,14 +335,6 @@ Default is `tf`.
 - `--save_model`:
 Controls if save the model.
 Default is `1`.
-
-- `--sigma`:
-Sigma of noise.
-Default is `1.0`.
-
-- `--spring_number`:
-Experimental.
-Default is `4`.
 
 - `--start_test_percent`:
 Set when to start val during training.Range of this arg is [0.0, 1.0]. The val will start at epoch = args.epochs * args.start_test_percent.
