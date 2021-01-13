@@ -9,7 +9,7 @@ categories: publications
  * @Author: Conghao Wong
  * @Date: 2020-11-09 20:13:21
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2021-01-13 20:18:55
+ * @LastEditTime: 2021-01-13 20:22:20
  * @Description: file content
 -->
 
@@ -41,50 +41,54 @@ Please see another post [🔗 post]() to download our released model weights, an
 
 Test results should be the same as follows if there are not any errors:
 
-<table><tbody>
-    <tr>
-        <th colspan=2>Dataset</th>
-        <th>Model Name</th>
-        <th>ADE</th>
-        <th>FDE</th>
-    </tr>
-    <tr>
-        <td rowspan=5>ETH-UCY</td>
-        <td>eth</td>
-        <td>CCNet_eth</td>
-        <td>0.517</td>
-        <td>1.052</td>
-    </tr>
-    <tr>
-        <td>hotel</td>
-        <td>CCNet_hotel</td>
-        <td>0.517</td>
-        <td>1.052</td>
-    </tr>
-    <tr>
-        <td>zara1</td>
-        <td>CCNet_zara1</td>
-        <td>0.381</td>
-        <td>0.817</td>
-    </tr>
-    <tr>
-        <td>zara2</td>
-        <td>CCNet_zara2</td>
-        <td>0.318</td>
-        <td>0.687</td>
-    </tr>
-    <tr>
-        <td>univ</td>
-        <td>CCNet_univ</td>
-        <td>0.470</td>
-        <td>1.021</td>
-    </tr>
-    <tr>
-        <td colspan=2>SDD</td>
-        <td>CCNet_sdd</td>
-        <td>14.63</td>
-        <td>29.91</td>
-    </tr>
+<table>
+    <thead>
+        <tr>
+            <th colspan=2>Dataset</th>
+            <th>Model Name</th>
+            <th>ADE</th>
+            <th>FDE</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5>ETH-UCY</td>
+            <td>eth</td>
+            <td>CCNet_eth</td>
+            <td>0.517</td>
+            <td>1.052</td>
+        </tr>
+        <tr>
+            <td>hotel</td>
+            <td>CCNet_hotel</td>
+            <td>0.517</td>
+            <td>1.052</td>
+        </tr>
+        <tr>
+            <td>zara1</td>
+            <td>CCNet_zara1</td>
+            <td>0.381</td>
+            <td>0.817</td>
+        </tr>
+        <tr>
+            <td>zara2</td>
+            <td>CCNet_zara2</td>
+            <td>0.318</td>
+            <td>0.687</td>
+        </tr>
+        <tr>
+            <td>univ</td>
+            <td>CCNet_univ</td>
+            <td>0.470</td>
+            <td>1.021</td>
+        </tr>
+        <tr>
+            <td colspan=2>SDD</td>
+            <td>CCNet_sdd</td>
+            <td>14.63</td>
+            <td>29.91</td>
+        </tr>
+    </tbody>
 </table>
 
 
