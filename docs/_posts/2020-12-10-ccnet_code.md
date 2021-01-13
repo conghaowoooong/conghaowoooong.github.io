@@ -9,7 +9,7 @@ categories: publications
  * @Author: Conghao Wong
  * @Date: 2020-11-09 20:13:21
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2021-01-13 20:35:53
+ * @LastEditTime: 2021-01-13 21:02:39
  * @Description: file content
 -->
 
@@ -23,7 +23,7 @@ For more about CCNet's details, please see [🔗 homepage]({% post_url 2020-12-0
 Welcome to clone our code by the following command:
 
 ```bash
-git clone what.git
+git clone https://github.com/TP-BIAC/CCNet.git
 ```
 
 ### Requirements
